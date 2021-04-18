@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Academy Choucair" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-18T21:21:53" hostname="DESKTOP-DRGMS12" time="28.554">
+  <properties/>
+  <testcase name="Search for a automation course" classname="Academy Choucair" time="28.554"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[abr 18, 2021 4:21:54 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 20151
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+abr 18, 2021 4:22:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+abr 18, 2021 4:22:22 PM org.openqa.selenium.os.OsProcess destroy
+GRAVE: Unable to kill process java.lang.ProcessImpl@68b2ffc7
+]]></system-err>
+</testsuite>

@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e4325b042e798e411f5794b32a75c33e6b2d40424abbb373b3665bbaddd3e07c.html">Academy Choucair</a></span>
+                > <span class="truncate-60"><a
+                    href="ba3bee52f70a3761eeeda8bcf0a9d54795f0280f7fb479c46da4b089f12a5e44.html">Search for a automation course </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-04-2021 16:21</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Academy Choucair </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                AS a user, I want to learn how to automate in screamplay at the Choucair Academy with the automation course
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Search for a automation course
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="91d60a939a04cca60e749a6207d129013fac7a6862469cea7bc3c5ffa3588898.png" title=" Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 102615516 | Choucair2021* |" width="1034"/>
+                <img src="91d60a939a04cca60e749a6207d129013fac7a6862469cea7bc3c5ffa3588898.png" title=" Leidy open up" width="1034"/>
+                <img src="91d60a939a04cca60e749a6207d129013fac7a6862469cea7bc3c5ffa3588898.png" title=" Leidy opens the Choucair academy page" width="1034"/>
+                <img src="91d60a939a04cca60e749a6207d129013fac7a6862469cea7bc3c5ffa3588898.png" title=" Leidy open up (completed)" width="1034"/>
+                <img src="36af0982a9c74c328ff37b2e6d45a6b0ce40cd441cf97b37f470e126f7947b12.png" title=" Leidy login" width="1034"/>
+                <img src="36af0982a9c74c328ff37b2e6d45a6b0ce40cd441cf97b37f470e126f7947b12.png" title=" Leidy clicks on button that shows us the fom to login" width="1034"/>
+                <img src="55a6f1101b6d0aec077c58c45622dda402a802ddf8da80fde33ccb59ede604ff.png" title=" Leidy enters '102615516' into where do we write the user" width="1034"/>
+                <img src="dd760c118274bcdfd14e04a43d1f01e387a10c5bc771423afc5e945395e196ad.png" title=" Leidy enters 'Choucair2021*' into where do we write the user" width="1034"/>
+                <img src="d4087259d48651a1a92100425771625e81dee4ba8e79a9818c94ab1f5314c367.png" title=" Leidy clicks on button to confirm login" width="1034"/>
+                <img src="d4087259d48651a1a92100425771625e81dee4ba8e79a9818c94ab1f5314c367.png" title=" Leidy login (completed)" width="1034"/>
+                <img src="d4087259d48651a1a92100425771625e81dee4ba8e79a9818c94ab1f5314c367.png" title=" Given than brandon wants to learn automation at the academy Choucair
+| strUser | strPassword |
+| 102615516 | Choucair2021* | (completed)" width="1034"/>
+                <img src="74e8b006c4ed8d58d427a01c655344d7e748349c5569989d39fa686106a12f93.png" title=" When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform
+| strCourse |
+| Recursos Automatizacion Bancolombia |" width="1034"/>
+                <img src="74e8b006c4ed8d58d427a01c655344d7e748349c5569989d39fa686106a12f93.png" title=" Leidy search" width="1034"/>
+                <img src="74e8b006c4ed8d58d427a01c655344d7e748349c5569989d39fa686106a12f93.png" title=" Leidy clicks on Selecciona la uniersidad chooucair" width="1034"/>
+                <img src="74e8b006c4ed8d58d427a01c655344d7e748349c5569989d39fa686106a12f93.png" title=" Leidy search (completed)" width="1034"/>
+                <img src="74e8b006c4ed8d58d427a01c655344d7e748349c5569989d39fa686106a12f93.png" title=" When he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform
+| strCourse |
+| Recursos Automatizacion Bancolombia | (completed)" width="1034"/>
+                <img src="74e8b006c4ed8d58d427a01c655344d7e748349c5569989d39fa686106a12f93.png" title=" Then he finds the course called resources Usted no tiene permiso para ver esta lista de cursos.
+| strCourse |
+| Usted no tiene permiso para ver esta lista de cursos. |" width="1034"/>
+                <img src="74e8b006c4ed8d58d427a01c655344d7e748349c5569989d39fa686106a12f93.png" title=" Then answer" width="1034"/>
+                <img src="74e8b006c4ed8d58d427a01c655344d7e748349c5569989d39fa686106a12f93.png" title=" Then he finds the course called resources Usted no tiene permiso para ver esta lista de cursos.
+| strCourse |
+| Usted no tiene permiso para ver esta lista de cursos. | (completed): <span class='success-color'>SUCCESS</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.60</span>
+</div>
+</body>
+</html>
